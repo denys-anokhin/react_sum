@@ -1,1 +1,3 @@
-// export const Sum = () => ();
+export const Sum = (props) => (
+  <p>Sum of {props.a} and {props.b} is {props.a + props.b}</p>
+);
